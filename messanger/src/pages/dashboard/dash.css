@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    padding: 5%;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+
+
+}
+
+
+.conv {
+    width: 400px;
+    background-color: #d9d9d9;
+    min-height: 100%;
+}
+
+.tomessage {
+    text-align: end;
+    background-color: #0f0;
+}
+
+.conv ul {
+    list-style: none;
+}
+
+
+.conv ul li {
+
+    cursor: pointer;
+    padding: 1rem;
+    border-bottom: 1px #000 solid;
+    border-top: 1px #000 solid;
+
+}
+
+.chat-box {
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.con-te li{
+    padding: .5rem;
+}
